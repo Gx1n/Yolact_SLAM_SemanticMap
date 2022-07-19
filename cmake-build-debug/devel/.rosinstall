@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/x1/catkin_ws/src/Yolact_SLAM_SemanticMap/cmake-build-debug/devel/setup.sh

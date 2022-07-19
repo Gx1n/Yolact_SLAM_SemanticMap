@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DynaSLAM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\opencv453\;CMake Files\..\..\..\..\..\usr\local\opencv453\lib\;CMake Files\..\..\..\..\..\usr\local\opencv453\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\opencv453\lib\cmake\opencv4\;CMake Files\..\..\..\..\..\usr\local\opencv2411\;CMake Files\..\..\..\..\..\usr\local\opencv2411\share\;CMake Files\..\..\..\..\..\usr\local\opencv2411\share\OpenCV\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_carla">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_carla" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_carla"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_carla/fast">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_carla" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_carla/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_kitti">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_kitti"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_kitti/fast">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_kitti/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_tum">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_tum"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mono_tum/fast">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 mono_tum/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynaSLAM">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/lib/libDynaSLAM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynaSLAM"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DynaSLAM/fast">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/lib/libDynaSLAM.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynaSLAM/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rgbd_tum">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/RGB-D/rgbd_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rgbd_tum"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rgbd_tum/fast">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/RGB-D/rgbd_tum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rgbd_tum/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stereo_kitti">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Stereo/stereo_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 stereo_kitti"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stereo_kitti/fast">
+				<Option output="/home/x1/catkin_ws/src/DynaSLAM/Examples/Stereo/stereo_kitti" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCOMPILEDWITHC11"/>
+					<Add directory="/usr/local/opencv2411/include/opencv"/>
+					<Add directory="/usr/local/opencv2411/include"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM"/>
+					<Add directory="/home/x1/catkin_ws/src/DynaSLAM/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/lib/python2.7/dist-packages/numpy/core/include/numpy"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 stereo_kitti/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/x1/catkin_ws/src/DynaSLAM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_carla.cc">
+			<Option target="mono_carla"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_kitti.cc">
+			<Option target="mono_kitti"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/Examples/Monocular/mono_tum.cc">
+			<Option target="mono_tum"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/Examples/RGB-D/rgbd_tum.cc">
+			<Option target="rgbd_tum"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/Examples/Stereo/stereo_kitti.cc">
+			<Option target="stereo_kitti"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Conversion.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Converter.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Frame.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/FrameDrawer.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Geometry.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Initializer.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/KeyFrame.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/KeyFrameDatabase.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/LocalMapping.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/LoopClosing.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Map.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/MapDrawer.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/MapPoint.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/MaskNet.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/ORBextractor.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/ORBmatcher.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Optimizer.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/PnPsolver.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Sim3Solver.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/System.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Tracking.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/src/Viewer.cc">
+			<Option target="DynaSLAM"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/opencv453/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv453\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/opencv2411/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv2411\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/opencv2411/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv2411\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/opencv2411/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv2411\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/opencv2411/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\opencv2411\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/lib/cmake/Pangolin/PangolinConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/local/lib/cmake/Pangolin/PangolinTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\Pangolin\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Test/Qt5TestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Test/Qt5TestConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Test/Qt5TestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Test\"/>
+		</Unit>
+		<Unit filename="/home/x1/catkin_ws/src/DynaSLAM/cmake_modules/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

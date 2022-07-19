@@ -1,0 +1,4 @@
+/home/x1/catkin_ws/src/DynaSLAM/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/home/x1/catkin_ws/src/DynaSLAM/cmake-build-release/CMakeFiles/edit_cache.dir
+/home/x1/catkin_ws/src/DynaSLAM/cmake-build-release/CMakeFiles/rgbd_tum.dir
+/home/x1/catkin_ws/src/DynaSLAM/cmake-build-release/CMakeFiles/ORB_SLAM2.dir
